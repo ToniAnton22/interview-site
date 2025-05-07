@@ -36,7 +36,7 @@ export default function HomeScreen() {
 
   const fetchWeatherData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/getWeather');
+      const response = await fetch('https://serv.bard-labs.com/api/getWeather');
       const data = await response.json();
 
       const hourlyData: WeatherData['hourly'] = {

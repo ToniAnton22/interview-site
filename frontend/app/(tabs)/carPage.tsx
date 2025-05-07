@@ -22,7 +22,7 @@ export default function CarPage() {
 
     const getCars = async () => {
         try {
-            const response = await fetch('http://localhost:3000/api/getCars');
+            const response = await fetch('https://serv.bard-labs.com/api/getCars');
             const data = await response.json();
 
             setFeaturedCars(data);
