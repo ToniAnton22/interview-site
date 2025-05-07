@@ -1,4 +1,3 @@
-// CarController.ts
 import { Request, Response } from 'express';
 import CarRepository from '../repository/CarRepository';
 
